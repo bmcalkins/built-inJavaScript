@@ -23,3 +23,10 @@ console.log(robin.getName());
 // "Robin Wieruch"
 // another class instantiation
 const dennis = new Developer('Dennis', 'Wieruch');
+
+// basic array definition
+const list = ['a', 'b'];
+// no array destructuring
+const itemOne = list[0]; const itemTwo = list[1];
+// array destructuring
+const [firstItem, secondItem] = list;
